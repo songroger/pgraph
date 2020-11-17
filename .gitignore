@@ -1,0 +1,75 @@
+# Redis temporary files
+*dump.rdb
+
+# Python byte code files
+*.pyc
+python/.eggs
+
+# Backup files
+*.bak
+
+# Emacs temporary files
+*~
+*#
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.xo
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Incremental linking files
+*.ilk
+
+# Library export files
+*.exp
+
+# Debug symbols
+*.pdb
+
+# Fortran module files
+*.mod
+!deploy/ray-operator/go.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio files
+/packages
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+
+# Protobuf-generated files
+*_pb2.py
+*.pb.h
+*.pb.cc
+
+# OS X folder attributes
+.DS_Store
+
+# Debug files
+*.dSYM/
+*.su
+
+# Python setup files
+*.egg-info

@@ -1,0 +1,15 @@
+---
+# ------------------------------------------------------------------------------------
+# -- Docs: https://github.com/andre-marcos-perez/spark-standalone-cluster-on-docker --
+# ------------------------------------------------------------------------------------
+version: "3.6"
+services:
+  pyspark-lab:
+#    image: tomerlevi/jupyter-spark-graphframes
+    build: .
+    ports:
+      - 8888:8888
+      - 4040:4040
+    # volumes:
+    #   - $PWD:/home/jovyan/workspace
+
